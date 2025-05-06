@@ -1,0 +1,102 @@
+body { /*background color for entire page*/ background-color:LightPink; }
+.top { /*styling the top header for page*/ 
+ text-align: center;
+ font-size:20px;
+ border-style: dotted;
+ border-widht: 5px;
+ border-color: Magenta;
+ border-left: 5px solid Magenta;
+ border-radius: 15px;
+ margin-top: 50px;
+ padding: 10px 15px 10px 20px;
+ color: white;
+ text-decoration-line: underline;
+  text-decoration-color: MistyRose; }
+.d { 
+  text-align: right;
+  font-size: 70px;
+  font-family: Courier New;
+  text-shadow: 3px 4px 5px Purple;
+  border-bottom: hidden; }
+.elle {
+  text-align: center;
+  font-size: 35px;
+  font-family: Snell Roundhand, cursive;
+  text-decoration-line: underline;
+  text-decoration-color: Salmon;
+  margin-top: 15px; }
+.a {
+  font-size: 18px;
+  font-family: Bradley Hand, cursive;
+  text-align: center;
+margin-right: 120px;}
+.b {
+  font-size: 20px;
+  font-family: Courier New, monospace;
+  text-align: center;
+  border-bottom: dotted;
+  border-widht: 5px;
+  border-color: Magenta;
+  border-radius: 15px; }
+.c { 
+  font-size: 18px;
+  font-family: Bradley Hand, cursive;
+  text-align: right; }
+.f {
+  font-size: 20px;
+  font-family: Courier New, monospace;
+  text-align: center;
+  border-bottom: dotted;
+  border-widht: 5px;
+  border-color: Magenta;
+  border-radius: 15px; }
+.g {
+  font-size: 18px;
+  font-family: Bradley Hand, cursive;
+  text-align: left; }
+.h {
+   font-size: 18px;
+  font-family: Bradley Hand, cursive;
+  text-align: left; }  
+.leftimg {
+  float: left;
+  margin-left: 10px;
+  margin-right: 20px; }
+.m {
+  font-size: 20px;
+  font-family: Courier New, monospace;
+  text-align: center;
+  border-bottom: dotted;
+  border-widht: 5px;
+  border-color: Magenta;
+  border-radius: 15px; }  
+.img {
+  float: left;
+  margin-bottom: 500px; }
+.d:hover {
+    background-color: DarkSalmon;
+  color: white;  }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  overflow:auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown {
+  margin-top: 30px;
+  border-style: double;
+  font-size: 25px;
+}  
+  
+  
